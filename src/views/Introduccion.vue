@@ -9,6 +9,13 @@
           i.fas.fa-info
       h1 Introducción
     
+    p La implementación, evaluación y análisis de métricas y controles es la fase del SGSI donde se prepara, aprueba y realiza la distribución del informe final de la auditoría. 
+
+    figure.mb-5(data-aos="zoom-in")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    
 </template>
 
 <script>
