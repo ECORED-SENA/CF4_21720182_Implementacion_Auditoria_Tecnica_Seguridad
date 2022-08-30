@@ -32,7 +32,7 @@
       .col-auto.BG04.p-2(data-aos="fade-right")  
         p.mb-0 Nota. Tomado d e Icontec, 2013.
       
-    p En relación co n las políticas de seguridad de la información, es importante indicar que tienen la siguiente estructura:
+    p En relación con las políticas de seguridad de la información, es importante indicar que tienen la siguiente estructura:
     
     .tarjeta--container.row.mb-5
       .col-md.BG02.p-5(data-aos="fade-right")
@@ -184,7 +184,7 @@
                   | Nunca Compartir la contraseña del correo.
                 li 
                   i.fas.fa-file-alt.fa-fw
-                  | Cambiar periódicamente la contraseña (mínimo cada tres meses)
+                  | Cambiar periódicamente la contraseña (mínimo cada tres meses).
                 li 
                   i.fas.fa-file-alt.fa-fw
                   | Todos los correos deben tener firma y nota de confidencialidad.

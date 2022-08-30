@@ -71,26 +71,26 @@
       table
         thead
           tr
-            th(style="background-color: #F2F2F2;" colspan="2").text-center.mb-0 Objetivo
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Objetivo
             th(style="background-color: #fff;" colspan="10")
         tbody
           tr
-            th(style="background-color: #F2F2F2;" colspan="2").text-center.mb-0 Alcance
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Alcance
             th(colspan="10")
           tr
-            th(style="background-color: #F2F2F2;" colspan="2").text-center.mb-0 Criterios
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Criterios
             th(colspan="10")
           tr
-            td(style="background-color: #F2F2F2;" colspan="2").text-bold.mb-0 Auditor líder
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Auditor líder
             td(colspan="4")
-            td(style="background-color: #F2F2F2;" colspan="2").text-bold.mb-0 Equipo auditor
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Equipo auditor
             td(colspan="4")
           tr
             td(colspan="12")
           tr
-            td(style="background-color: #F2F2F2;" colspan="2").text-bold.mb-0 Reunión de apertura
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Reunión de apertura
             td(colspan="4")
-            td(style="background-color: #F2F2F2;" colspan="2").text-bold.mb-0 Reunión de cierre
+            th(style="background-color: #F2F2F2;" colspan="2").mb-0 Reunión de cierre
             td(colspan="4")
           tr
             td(colspan="12")
@@ -146,6 +146,8 @@
       .col-md-5.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img07.jpg')
 
+    p Dentro de los tipos de ciberataques también se encuentra el ataque a las contraseñas:
+
     .BGIMG02.p-4.mb-5(data-aos="zoom-in")
       SlyderA.img02(tipo="b")
         .row.justify-content-center
@@ -175,6 +177,7 @@
         p.mb-0 Nota. Adaptado de Instituto Nacional de Ciberseguridad (INCIBE)
     
     p Otra actividad para realizar es aplicar la lista de verificación el ciclo PHVA, donde se ponen en práctica los conceptos de auditoría de SGSI. En ese proceso se debe coordinar la planificación, analizar los resultados y avances del plan de mejora, se puede implementar una lista y un listado de verificación.
+    p El formato se muestra a continuación:
 
     .row.justify-content-center
       .col-md-5.col-10.mb-md-0.mb-4
