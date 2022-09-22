@@ -19,77 +19,83 @@
 
     p.mb-5 La siguiente figura representa elementos involucrados en la política de seguridad de la información:
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 4
-      span Control de Información documentada
+    .row.justify-content-center
+      .col-md-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 4
+          span Control de Información documentada
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-10(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema3/img02.svg')
     
-    .row.mb-4
+    .row.mb-5
       .col-auto.BG04.p-2(data-aos="fade-right")  
         p.mb-0 Nota. Tomado d e Icontec, 2013.
       
     p En relación con las políticas de seguridad de la información, es importante indicar que tienen la siguiente estructura:
     
-    .tarjeta--container.row.mb-5
-      .col-md.BG02.p-5(data-aos="fade-right")
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/tema3/img03.png')
-        h4.text-center Alcance
-        p Describe a quién se aplica la política.
-      .col-md.BG05.p-5(data-aos="zoom-in")
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/tema3/img04.png')
-        h4.text-center Objetivo
-        p Describe qué busca proteger la política.
-      .col-md.BG02.p-5(data-aos="fade-left")
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/tema3/img05.png')
-        h4.text-center Marco normativo
-        p Identifica las leyes que apoyan a la política.
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-8.order-md-1.order-2.BGIMG01.p-4(data-aos="fade-right")
-        p Esta estructu ra debe contener detalles como:
-        ul.lista-ul--color
-          li 
-            i.fas.fa-file-alt.fa-fw
-            | Condiciones obligatorias:  explica lo que se debe cumplir.
-          li 
-            i.fas.fa-file-alt.fa-fw
-            | Responsabilidades: identifica quiénes tienen obligaciones sobre la política.
-          li 
-            i.fas.fa-file-alt.fa-fw
-            | Seguimiento y control: identifica cómo se revisan las políticas.
-          li 
-            i.fas.fa-file-alt.fa-fw
-            | Procedimientos: identifica los procedimientos que implementan la política.
-      .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4.img06(data-aos="zoom-in")
-        img(src='@/assets/curso/tema3/img06.png')
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .tarjeta--container.row
+          .col-md.BG02.p-5(data-aos="fade-right")
+            .row.justify-content-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/tema3/img03.png')
+            h5.text-center Alcance
+            p Describe a quién se aplica la política.
+          .col-md.BG05.p-5(data-aos="zoom-in")
+            .row.justify-content-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/tema3/img04.png')
+            h5.text-center Objetivo
+            p Describe qué busca proteger la política.
+          .col-md.BG02.p-5(data-aos="fade-left")
+            .row.justify-content-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/tema3/img05.png')
+            h5.text-center Marco normativo
+            p Identifica las leyes que apoyan a la política.
+    
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .row.justify-content-center.align-items-center
+          .col-md-8.order-md-1.order-2.BGIMG01.p-4(data-aos="fade-right")
+            p Esta estructu ra debe contener detalles como:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-file-alt.fa-fw
+                | Condiciones obligatorias:  explica lo que se debe cumplir.
+              li 
+                i.fas.fa-file-alt.fa-fw
+                | Responsabilidades: identifica quiénes tienen obligaciones sobre la política.
+              li 
+                i.fas.fa-file-alt.fa-fw
+                | Seguimiento y control: identifica cómo se revisan las políticas.
+              li 
+                i.fas.fa-file-alt.fa-fw
+                | Procedimientos: identifica los procedimientos que implementan la política.
+          .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4.img06(data-aos="zoom-in")
+            img(src='@/assets/curso/tema3/img06.png')
 
     p A continuación, se presenta el ejemplo de cómo podría ser una política:
 
     .row.justify-content-center.mb-4
-      .col-md-3.col-8.tarjeta-avatar(data-aos="fade-right")
+      .col-lg-3.col-md-4.col-8.mb-md-0.mb-4.tarjeta-avatar(data-aos="fade-right")
         img(src='@/assets/curso/tema3/img07.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           .h4.text-center.mt-5 Alcance
           p Esta política aplica a todo el personal de la organización que sea responsable de usar o administrar activos de la organización.
-      .col-md-3.col-8.tarjeta-avatar(data-aos="zoom-in")
+      .col-lg-3.col-md-4.col-8.mb-md-0.mb-4.tarjeta-avatar(data-aos="zoom-in")
         img(src='@/assets/curso/tema3/img08.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           .h4.text-center.mt-5 Objetivo
           p.mb-5 Asegurar que la información reciba un nivel de protección apropiado de acuerdo a la importancia de la organización.
-      .col-md-3.col-8.tarjeta-avatar(data-aos="fade-left")
+      .col-lg-3.col-md-4.col-8.mb-md-0.mb-4.tarjeta-avatar(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img09.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           .h4.text-center.mt-5 Marco Normativo 
@@ -97,19 +103,21 @@
 
     p Ahora, la política general de seguridad es la información de más alto nivel de la organización, en ella se expone el compromiso e intención de la organización para lograr la seguridad de la información, las demás políticas apoyan el objetivo de dicha política, allí se pueden encontrar el avance y mejoras implementadas. A continuación, se relacionan algunos ejemplos de políticas de seguridad de la información específicas:
 
+    .BGIMG04.p-4
+      .row.justify-content-center
+        .col-md-10
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Figura 5
+            span Políticas específicas
 
-    .titulo-sexto.color-secundario(data-aos="fade-right")
-      h5 Figura 5
-      span Políticas específicas
-
-    figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema3/img10.svg')
-    
-    p Algunas de est as políticas específicas, se presentan a continuación:
+      figure.mb-5(data-aos="zoom-in")
+        img(src='@/assets/curso/tema3/img10.svg')
+      
+      p Algunas de est as políticas específicas, se presentan a continuación:
   
     .row.mb-4
       .col-auto.BGR06.p-2.px-2(data-aos="fade-right")  
-        p.mb-0.text-white Políticas de seguridad
+        .h5.mb-0.text-white Políticas de seguridad
       
     .BGR07.p-4.mb-4(data-aos="zoom-in")
       LineaTiempoC.color-acento-botones(text-small)
@@ -169,7 +177,7 @@
           .col-12
             .h4 Uso de servicios tecnológicos
             p.mb-5 En estas políticas se describen las directrices sobre el uso de los servicios informáticos en la organización incluyen:
-          .col-md-4.col-10.mb-md-0.mb-4
+          .col-lg-4.col-10.mb-lg-0.mb-4
             .BG03.p-4
               .row.justify-content-center.mb-4
                 .col-md-4.col-6
@@ -188,7 +196,7 @@
                 li 
                   i.fas.fa-file-alt.fa-fw
                   | Todos los correos deben tener firma y nota de confidencialidad.
-          .col-md-4.col-10.mb-md-0.mb-4
+          .col-lg-4.col-10.mb-lg-0.mb-4
             .BG03.p-4.pb-5
               .row.justify-content-center.mb-4
                 .col-md-4.col-6
@@ -202,7 +210,7 @@
                   i.fas.fa-file-alt.fa-fw
                   | El servicio de acceso a internet será monitorizado y controlado para garantizar la seguridad y calidad de todo el personal.
               p.mb-5 #[strong Nota]: en internet existen varios sitios inseguros. 
-          .col-md-4.col-10
+          .col-lg-4.col-10
             .BG03.p-4.pb-5
               .row.justify-content-center.mb-4
                 .col-md-4.col-6
@@ -221,7 +229,7 @@
         .row.justify-content-center(titulo="4")
           .col-12
             .h4.mb-5 Uso de servicios tecnológicos
-          .col-md-4.col-10.mb-md-0.mb-4
+          .col-lg-4.col-10.mb-lg-0.mb-4
             .BG03.p-4.pb-5
               .row.justify-content-center.mb-4
                 .col-md-4.col-6
@@ -237,7 +245,7 @@
                 li 
                   i.fas.fa-file-alt.fa-fw
                   | El acceso al teletrabajo debe cumplirse conforme a las leyes nacionales. 
-          .col-md-4.col-10.mb-md-0.mb-4
+          .col-lg-4.col-10
             .BG03.p-4
               .row.justify-content-center.mb-4
                 .col-md-4.col-6
@@ -281,7 +289,7 @@
           .col-12
             .h4 Talento humano
             p Formato Política de Respaldo de Información 
-            .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
+            .tabla-a.color-acento-contenido.mb-5
               table
                 thead
                   tr
@@ -327,8 +335,9 @@
                     th(style="background-color: #fff;")
                     th(style="background-color: #fff;")
                     th(style="background-color: #fff;")
+
         .row.justify-content-center(titulo="7")
-          .col-md-7.order-md-1.order-2
+          .col-lg-7.order-lg-1.order-2
             .h4 Específicas de gestión de tecnología
             p Son políticas muy concretas que se aplican a los administradores de los servicios de tecnología, incluyen:
             ul.lista-ul--color
@@ -353,7 +362,7 @@
               li 
                 i.fas.fa-file-alt.fa-fw
                 | Desarrollo de software.
-          .col-md-3.col-6.order-md-2.order-1.mb-4
+          .col-lg-3.col-6.order-lg-2.order-1.mb-4
             img.img90(src='@/assets/curso/tema3/img19.png')
 
     p Los formatos n ecesarios para realizar solicitudes con relación a los datos recolectados durante la auditoría se presentan a continuación:
@@ -368,8 +377,8 @@
               .col.mb-3.mb-sm-0
                 .h4 Tabla 2
                 .h4 Solicitud de Cambio en componentes de infraestructura tecnológica
-              .col-sm-auto.pt-5
-                a.boton.color-primario.text-white.mt-5(:href="obtenerLink('downloads/tabla02.pdf')" target="_blank")
+              .col-sm-auto.pt-md-5
+                a.boton.color-primario.text-white.mt-md-5(:href="obtenerLink('downloads/tabla02.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 
@@ -383,8 +392,8 @@
               .col.mb-3.mb-sm-0
                 .h4 Tabla 3
                 .h4 Aprobación del cambio
-              .col-sm-auto.pt-5
-                a.boton.color-primario.text-white.mt-5(:href="obtenerLink('downloads/tabla03.pdf')" target="_blank")
+              .col-sm-auto.pt-md-5
+                a.boton.color-primario.text-white.mt-md-5(:href="obtenerLink('downloads/tabla03.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 
@@ -398,8 +407,8 @@
               .col.mb-3.mb-sm-0
                 .h4 Tabla 4
                 .h4 Plan de trabajo del cambio
-              .col-sm-auto.pt-5
-                a.boton.color-primario.text-white.mt-5(:href="obtenerLink('downloads/tabla04.pdf')" target="_blank")
+              .col-sm-auto.pt-md-5
+                a.boton.color-primario.text-white.mt-md-5(:href="obtenerLink('downloads/tabla04.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download         
 
@@ -413,8 +422,8 @@
               .col.mb-3.mb-sm-0
                 .h4 Tabla 5
                 .h4 Evaluación de resultados del cambio
-              .col-sm-auto.pt-5
-                a.boton.color-primario.text-white.mt-5(:href="obtenerLink('downloads/tabla05.pdf')" target="_blank")
+              .col-sm-auto.pt-md-5
+                a.boton.color-primario.text-white.mt-md-5(:href="obtenerLink('downloads/tabla05.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download 
 

@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Evaluación de métricas y controles',
     descripcionCurso:
       'En el presente componente el estudiante estará en la capacidad de implementar un programa de auditoría interna con base a la norma ISO 27001, manteniendo la competencia como auditor y aplicando los diferentes conceptos y técnicas de auditoría, así como los requisitos y controles de un sistema integrado de seguridad de la información.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

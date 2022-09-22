@@ -30,15 +30,17 @@
     
     p.mb-5 En tal sentido, para un proceso de auditoría se deben tener en cuenta:
 
-    .titulo-sexto.color-secundario(data-aos="fade-right")
-      h5 Figura 1
-      span Proceso de auditoría
+    .row.justify-content-center
+      .col-md-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 1
+          span Proceso de auditoría
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-3.col-8.BG01.p-4.mb-md-0.mb-4(data-aos="fade-right")
         .h4.text-center Criterios de Evaluación
         .row.justify-content-center
-          .col-md-4.col-6
+          .col-lg-4.col-6
             img(src='@/assets/curso/tema1/img03.png')
       .col-md-2.col-5.mb-md-0.mb-4(data-aos="zoom-in")
         .row.justify-content-center
@@ -47,7 +49,7 @@
       .col-md-3.col-8.BG01.p-4(data-aos="fade-left")
         .h4.text-center Métodos de Evaluación
         .row.justify-content-center
-          .col-md-4.col-6
+          .col-lg-4.col-6
             img(src='@/assets/curso/tema1/img05.png')
 
     .row.justify-content-center.align-items-center.mb-4
@@ -71,24 +73,32 @@
         p Dicho lo anterior, se debe tener presente que una buena planeación es el éxito de una auditoría, porque las organizaciones quieren resultados y medidas para proteger su activo más valioso: la información. 
         p Para lograrlo, el trabajo en equipo y la sinergia son las principales directrices que debe enmarcar el auditor líder, porque equilibra fortalezas y debilidades en el equipo y organización, los informes, reuniones y comunicaciones entre el cliente de la auditoría y el auditado deben estar enmarcadas en un buen clima laboral, esta es una responsabilidad del auditor líder, para tener los mejores resultados en pro de la organización la armonía y prevenir los conflictos. La siguiente figura representa los elementos que conforman un programa de auditoría:
 
-    .titulo-sexto.color-secundario(data-aos="fade-right")
-      h5 Figura 2
-      span Programa de auditoría 
+    .BGIMG04.p-4
+      .row.justify-content-center
+        .col-md-10
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Figura 2
+            span Programa de auditoría 
 
-    .row.justify-content-center.mb-4
-      .col-md-10(data-aos="zoom-in") 
-        img(src='@/assets/curso/tema1/img07.svg')
+      .row.justify-content-center.mb-5
+        .col-md-10(data-aos="zoom-in") 
+          img(src='@/assets/curso/tema1/img07.svg')
     
     p En relación con métodos de medición y seguimiento, uno de los más utilizados es la entrevista, en esta se debe elogiar lo positivo, realizar críticas colaboradoras, tener tacto y paciencia, dejar hablar, mantener contacto visual y concentración. 
     p.mb-5 Los siguientes son algunos de los elementos involucrados en la entrevista:
 
-    .titulo-sexto.color-secundario(data-aos="fade-right")
-      h5 Figura 3
-      span La entrevista
+    .row.justify-content-center
+      .col-md-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 3
+          span La entrevista
     
-    figure(data-aos="zoom-in")
+    figure.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img08.svg')
-      figcaption Nota. Tomado y adaptado de Icontec, 2013.
+    
+    .row
+      .col-auto.BG04.p-2(data-aos="fade-right")
+        p.mb-0 Nota. Tomado y adaptado de Icontec, 2013.
       
 </template>
 

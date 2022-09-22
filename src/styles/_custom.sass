@@ -55,23 +55,22 @@
 
 .BGIMG01
   background-image: url("../assets/curso/tema1/img01.png")
-  background-size: cover 
-  background-repeat: no-repeat
-  background-position: center
 
 .BGIMG02
   background-image: url("../assets/curso/tema2/img13.png")
-  background-size: cover 
-  background-repeat: no-repeat
-  background-position: center
   border-radius: 15px
 
 .BGIMG03
   background-image: url("../assets/curso/tema3/img20.png")
+  border-radius: 20px
+
+.BGIMG04
+  background-image: url("../assets/curso/tema3/img28.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04 
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
-  border-radius: 20px
 
 .img01
   position: absolute
@@ -110,3 +109,9 @@
 
 .linea-tiempo-c__header__btn--right i, .linea-tiempo-c__header__btn--left i
   color: #fff
+
+.tabla-a th
+  @media (max-width: $bp-max-md)
+    font-size: 0.7em
+  @media (max-width: $bp-max-sm)
+    font-size: 0.65em

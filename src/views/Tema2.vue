@@ -9,7 +9,7 @@
     
     p Dentro de las auditorías in situ, el auditor líder debe contar con un plan de auditoría, que debe contener la siguiente información:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4")(data-aos="zoom-in")
+    SlyderF.mb-5(columnas="col-md-6 col-lg-4")
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/img01.png' alt='AvatarTop')
         .BGR02.p-4.py-5
@@ -180,7 +180,7 @@
     p El formato se muestra a continuación:
 
     .row.justify-content-center
-      .col-md-5.col-10.mb-md-0.mb-4
+      .col-lg-5.col-10.mb-lg-0.mb-4
         .BGIMG02.p-4.pb-5(data-aos="fade-right")
           .row.justify-content-center.mb-4
             .col-md-4.col-8
@@ -198,7 +198,7 @@
               | Documentos y/o registros
             li 
               i.fas.fa-file-alt.fa-fw
-              | Comentarios/Observaciones/Conclusiones/Hallazgos
+              | Comentarios/ Observaciones/ Conclusiones/ Hallazgos
             li 
               i.fas.fa-file-alt.fa-fw
               | PHVA
@@ -209,7 +209,7 @@
               i.fas.fa-file-alt.fa-fw
               | Responsable
           <br><br><br><br><br>
-      .col-md-5.col-10
+      .col-lg-5.col-10
         .BGIMG02.p-4(data-aos="fade-left")
           .row.justify-content-center.mb-4
             .col-md-4.col-8
@@ -230,7 +230,7 @@
               | Descripción control
             li 
               i.fas.fa-file-alt.fa-fw
-              | Inforamción técnica que apoye el control (ISO 27002, ISO 27007, ISO IEC TR 27008)
+              | Información técnica que apoye el control (ISO 27002, ISO 27007, ISO IEC TR 27008)
             li 
               i.fas.fa-file-alt.fa-fw
               | Guía práctica de auditoría
