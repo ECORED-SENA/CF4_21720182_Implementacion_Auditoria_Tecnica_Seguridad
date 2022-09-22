@@ -45,27 +45,27 @@
                 figure
                   img(src='@/assets/curso/tema3/img03.png')
             h5.text-center Alcance
-            p Describe a quién se aplica la política.
+            p.text-center Describe a quién se aplica la política.
           .col-md.BG05.p-5(data-aos="zoom-in")
             .row.justify-content-center.mb-4
               .col-6
                 figure
                   img(src='@/assets/curso/tema3/img04.png')
             h5.text-center Objetivo
-            p Describe qué busca proteger la política.
+            p.text-center Describe qué busca proteger la política.
           .col-md.BG02.p-5(data-aos="fade-left")
             .row.justify-content-center.mb-4
               .col-6
                 figure
                   img(src='@/assets/curso/tema3/img05.png')
             h5.text-center Marco normativo
-            p Identifica las leyes que apoyan a la política.
+            p.text-center Identifica las leyes que apoyan a la política.
     
     .row.justify-content-center.mb-5
       .col-md-10
         .row.justify-content-center.align-items-center
           .col-md-8.order-md-1.order-2.BGIMG01.p-4(data-aos="fade-right")
-            p Esta estructu ra debe contener detalles como:
+            p Esta estructura debe contener detalles como:
             ul.lista-ul--color
               li 
                 i.fas.fa-file-alt.fa-fw
@@ -122,7 +122,7 @@
     .BGR07.p-4.mb-4(data-aos="zoom-in")
       LineaTiempoC.color-acento-botones(text-small)
         .row.justify-content-center(titulo="1")
-          .col-md-7.order-md-1.order-2
+          .col-md-7.col-11.order-md-1.order-2
             .h4 Uso y manejo del parque computacional
             p Esta política describe las directrices sobre el uso de los equipos de tecnología, incluyen equipos de propiedad de la entidad, equipos de contratistas y personales de empleados que los utilicen para tener acceso a la información de la empresa, incluyen:
             ul.lista-ul--color
@@ -156,7 +156,7 @@
                   p Reportar problemas con los equipos a la mesa de ayuda.
                   p Mantener segura la información confidencial en los dispositivos personales.
         .row.justify-content-center(titulo="2")
-          .col-md-7.order-md-1.order-2
+          .col-md-7.col-11.order-md-1.order-2
             .h4 Uso seguro de la tecnología
             ul.lista-ul--color
               li 
@@ -262,7 +262,7 @@
                   i.fas.fa-file-alt.fa-fw
                   | El antivirus que se debe utilizar es el adquirido por la organización.
         .row.justify-content-center(titulo="5")
-          .col-md-7.order-md-1.order-2
+          .col-md-7.col-10.order-md-1.order-2
             .h4 Talento humano
             ul.lista-ul--color
               li 
@@ -286,7 +286,7 @@
           .col-md-4.col-6.order-md-2.order-1.mb-4
             img(src='@/assets/curso/tema3/img18.png')
         .row.justify-content-center(titulo="6")
-          .col-12
+          .col-md-12.col-10
             .h4 Talento humano
             p Formato Política de Respaldo de Información 
             .tabla-a.color-acento-contenido.mb-5
@@ -337,7 +337,7 @@
                     th(style="background-color: #fff;")
 
         .row.justify-content-center(titulo="7")
-          .col-lg-7.order-lg-1.order-2
+          .col-lg-7.col-10.order-lg-1.order-2
             .h4 Específicas de gestión de tecnología
             p Son políticas muy concretas que se aplican a los administradores de los servicios de tecnología, incluyen:
             ul.lista-ul--color
@@ -461,8 +461,8 @@
               .col.mb-3.mb-sm-0
                 .h4 Tabla 6
                 .h4 Cronograma auditoría
-              .col-sm-auto.pt-5
-                a.boton.color-primario.text-white.mt-5(:href="obtenerLink('downloads/tabla06.pdf')" target="_blank")
+              .col-sm-auto.pt-md-5
+                a.boton.color-primario.text-white.mt-md-5(:href="obtenerLink('downloads/tabla06.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download 
 

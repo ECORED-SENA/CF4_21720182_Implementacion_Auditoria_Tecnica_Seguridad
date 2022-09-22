@@ -9,21 +9,20 @@
     
     p Dentro de las auditorías in situ, el auditor líder debe contar con un plan de auditoría, que debe contener la siguiente información:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4")
-      .tarjeta-avatar
+    SlyderF.mb-5(columnas="col-sm-11 col-lg-4")
+      .tarjeta-avatar.slyderF-media
         img(src='@/assets/curso/tema2/img01.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           p.text-center.my-5 Objetivos de la auditoría.
           br
-      .tarjeta-avatar
+      .tarjeta-avatar.slyderF-media
         img(src='@/assets/curso/tema2/img02.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           p.text-center.mt-5 Criterios de la auditoría 
-          p.text-center y documentos de referencia. 
-          br
-      .tarjeta-avatar
+          p.text-center.mb-4 y documentos de referencia.
+      .tarjeta-avatar.slyderF-media
         img(src='@/assets/curso/tema2/img03.png' alt='AvatarTop')
-        .BGR02.p-4
+        .BGR02.p-4.py-4
           p.text-center.mt-5 Alcance:
           ul.lista-ul--color
             li 
@@ -35,9 +34,9 @@
             li 
               i.fas.fa-file-alt.fa-fw
               | Procesos.
-      .tarjeta-avatar
+      .tarjeta-avatar.slyderF-media
         img(src='@/assets/curso/tema2/img04.png' alt='AvatarTop')
-        .BGR02.p-4
+        .BGR02.p-4.py-lg-4
           p.text-center.mt-5 Agenda:
           ul.lista-ul--color
             li 
@@ -49,13 +48,13 @@
             li 
               i.fas.fa-file-alt.fa-fw
               | Tiempo.
-      .tarjeta-avatar
+      .tarjeta-avatar.slyderF-media
         img(src='@/assets/curso/tema2/img05.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           p.text-center.mt-5 Funciones y responsabilidades 
           p.text-center del equipo auditor.
           br
-      .tarjeta-avatar
+      .tarjeta-avatar.slyderF-media
         img(src='@/assets/curso/tema2/img06.png' alt='AvatarTop')
         .BGR02.p-4.py-5
           p.text-center.my-5 Recursos.
