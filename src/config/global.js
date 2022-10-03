@@ -113,14 +113,14 @@ export default {
       referencia: 'Diario oficial. (2009). Ley 1273 de 2009.',
       tipo: 'PDF',
       link:
-        'https://www.sic.gov.co/recursos_user/documentos/normatividad/Ley_1273_2009.pdf',
+        'https://www.enticconfio.gov.co/images/stories/normatividad/Ley_1273_de_2009%20.pdf',
     },
     {
       tema: 'Desarrollar y mantener la competencia de los auditores',
       referencia: 'Defensoria.gov.co. (2012). Ley Estatutaria 1581 de 2012.',
       tipo: 'PDF',
       link:
-        'https://www.defensoria.gov.co/public/Normograma%202013_html/Normas/Ley_1581_2012.pdf',
+        'https://www.sic.gov.co/sites/default/files/normatividad/Ley_1581_2012.pdf',
     },
     {
       tema: 'Desarrollar y mantener la competencia de los auditores',
@@ -244,7 +244,7 @@ export default {
     {
       referencia: 'Congreso de Colombia. (enero 5 de 2009). Ley 1273 de 2009.',
       link:
-        'https://www.sic.gov.co/recursos_user/documentos/normatividad/Ley_1273_2009.pdf',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1273_2009.html',
     },
     {
       referencia: 'DNP. (abril 11 de 2016). Conpes 3854 de 2016.',
@@ -297,7 +297,8 @@ export default {
       link: 'https://acortar.link/aGHdJn',
     },
     {
-      referencia: 'National Institute of Standards and technology. (2002).',
+      referencia:
+        'National Institute of Standards and technology. (2002). Metodología para la Gestión de la Seguridad Informática (Proyecto)',
       link:
         'https://instituciones.sld.cu/dnspminsap/files/2013/08/Metodologia-PSI-NUEVAProyecto.pdf',
     },
@@ -306,7 +307,7 @@ export default {
       link: 'https://www.oas.org/juridico/english/cyb_pry_convenio.pdf',
     },
     {
-      referencia: 'ORACLE. (2022). ORCALE.',
+      referencia: 'ORACLE. (2022). ORACLE.',
       link: 'https://www.oracle.com/co/database/what-is-database/',
     },
     {

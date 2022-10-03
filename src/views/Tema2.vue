@@ -7,7 +7,7 @@
         span 2
       h1 Desarrollar y mantener la competencia de los auditores
     
-    p Dentro de las auditorías in situ, el auditor líder debe contar con un plan de auditoría, que debe contener la siguiente información:
+    p Dentro de las auditorías #[i in situ], el auditor líder debe contar con un plan de auditoría, que debe contener la siguiente información:
 
     SlyderF.mb-5(columnas="col-sm-11 col-lg-4")
       .tarjeta-avatar.slyderF-media

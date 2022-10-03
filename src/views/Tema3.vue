@@ -32,9 +32,9 @@
     
     .row.mb-5
       .col-auto.BG04.p-2(data-aos="fade-right")  
-        p.mb-0 Nota. Tomado d e Icontec, 2013.
+        p.mb-0 Nota. Tomado de Icontec, 2013.
       
-    p En relación con las políticas de seguridad de la información, es importante indicar que tienen la siguiente estructura:
+    p En relación con las políticas de seguridad de la información, es importante indicar que tiene la siguiente estructura:
     
     .row.justify-content-center.mb-5
       .col-md-10
@@ -113,7 +113,7 @@
       figure.mb-5(data-aos="zoom-in")
         img(src='@/assets/curso/tema3/img10.svg')
       
-      p Algunas de est as políticas específicas, se presentan a continuación:
+      p Algunas de estas políticas específicas, se presentan a continuación:
   
     .row.mb-4
       .col-auto.BGR06.p-2.px-2(data-aos="fade-right")  
@@ -254,7 +254,7 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-file-alt.fa-fw
-                  | Es obligatorio el uso del antivirus en todos los computadores, dispositivos móviles, teléfono inteligentes y demás equipos de la organización.
+                  | Es obligatorio el uso del antivirus en todos los computadores, dispositivos móviles, teléfono inteligente y demás equipos de la organización.
                 li 
                   i.fas.fa-file-alt.fa-fw
                   | Está prohibido desinstalar o bloquear el antivirus.
@@ -294,11 +294,11 @@
                 thead
                   tr
                     th(style="background-color: #F2F2F2;" colspan="3").mb-0 Nombre del responsable del sistema de información /servidor
-                    th(style="background-color: #fff;" colspan="8")
+                    th(style="background-color: #fff;" colspan="9")
                 tbody
                   tr
                     th(style="background-color: #F2F2F2;" colspan="3").mb-0 Nombre del responsable del proceso
-                    th(style="background-color: #fff;" colspan="8")
+                    th(style="background-color: #fff;" colspan="9")
                   tr
                     th(style="background-color: #F2F2F2;").mb-0 Proceso
                     th(style="background-color: #F2F2F2;").mb-0 Servidor/ sistema de información
@@ -310,7 +310,7 @@
                     th(style="background-color: #F2F2F2;").mb-0 Tiempo de retención
                     th(style="background-color: #F2F2F2;").mb-0 Dispositivo de respaldo
                     th(style="background-color: #F2F2F2;").mb-0 Tamaño información [GB]
-                    th(style="background-color: #F2F2F2;").mb-0 Observaciones
+                    th(style="background-color: #F2F2F2;" colspan="2").mb-0 Observaciones
                   tr
                     th(style="background-color: #F2F2F2;").mb-0 Nombre de proceso
                     th(style="background-color: #fff;")
@@ -322,7 +322,7 @@
                     th(style="background-color: #fff;")
                     th(style="background-color: #fff;")
                     th(style="background-color: #fff;")
-                    th(style="background-color: #fff;")
+                    th(style="background-color: #fff;" colspan="2")
                   tr
                     th(style="background-color: #F2F2F2;").mb-0 Nombre de proceso
                     th(style="background-color: #fff;")
@@ -334,7 +334,7 @@
                     th(style="background-color: #fff;")
                     th(style="background-color: #fff;")
                     th(style="background-color: #fff;")
-                    th(style="background-color: #fff;")
+                    th(style="background-color: #fff;" colspan="2")
 
         .row.justify-content-center(titulo="7")
           .col-lg-7.col-10.order-lg-1.order-2
@@ -365,7 +365,7 @@
           .col-lg-3.col-6.order-lg-2.order-1.mb-4
             img.img90(src='@/assets/curso/tema3/img19.png')
 
-    p Los formatos n ecesarios para realizar solicitudes con relación a los datos recolectados durante la auditoría se presentan a continuación:
+    p Los formatos necesarios para realizar solicitudes con relación a los datos recolectados durante la auditoría se presentan a continuación:
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-md-10.BGIMG03.p-4
@@ -472,7 +472,7 @@
           img(src='@/assets/curso/tema3/img27.png')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Al finalizar e l proceso de auditoría se debe entregar un Informe final sobre la empresa planteada y siguiendo la continuidad de los informes realizados en las fases anteriores, se diseña e implementa el plan de mejora empresarial previniendo pérdidas de la información empresarial y aplicando como auditor las políticas de SGSI.
+            p Al finalizar el proceso de auditoría se debe entregar un Informe final sobre la empresa planteada y siguiendo la continuidad de los informes realizados en las fases anteriores, se diseña e implementa el plan de mejora empresarial previniendo pérdidas de la información empresarial y aplicando como auditor las políticas de SGSI.
 
 </template>
 
