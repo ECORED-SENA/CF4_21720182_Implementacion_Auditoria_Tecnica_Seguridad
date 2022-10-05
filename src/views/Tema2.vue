@@ -129,12 +129,12 @@
             th(colspan="2")
             th(colspan="2")
           tr
-            td(style="background-color: #F2F2F2;" colspan="2").text-bold.text-center.mb-0 Observaciones
-            td(colspan="10")
+            th(style="background-color: #F2F2F2;" colspan="2").text-center.mb-0 Observaciones
+            th(colspan="10")
           tr
-            td(style="background-color: #F2F2F2;" colspan="6").text-bold.mb-0 Elaborado por
-            td(style="background-color: #F2F2F2;" colspan="3").text-bold.mb-0 Aprobado
-            td(style="background-color: #F2F2F2;" colspan="3").text-bold.mb-0 Fecha
+            th(style="background-color: #F2F2F2;" colspan="6").mb-0 Elaborado por
+            th(style="background-color: #F2F2F2;" colspan="3").mb-0 Aprobado
+            th(style="background-color: #F2F2F2;" colspan="3").mb-0 Fecha
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.order-md-1.order-2      
